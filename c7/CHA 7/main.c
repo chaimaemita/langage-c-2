@@ -7,12 +7,6 @@ int main()
 
     printf("entrer l'année: \n");
     scanf("%d",&an);
-        switch (a){
-    case ('1'): printf("12mois");break;
-    case ('2'): printf("365JOURS");break;
-    case ('3'): printf("8760heurs");break;
-    case('4'): printf("525600minutes");break;
-    case('5'): printf("31536000SECONDES");break;}
     if(an%4==0){
         m=12;
         jrs=365;
