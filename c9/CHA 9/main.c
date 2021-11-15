@@ -9,17 +9,17 @@ int main()
 
     printf("la moyenne est: %f\n",moy);
 
-    if(moy>=10 && 12<moy){
-        printf("\n la mention est: passable",moy);
+    if(10<=moy && moy<12){
+        printf("\n la mention est: passable");
     }
-    else if(moy>=12  && moy<14){
-            printf("\n la mention est: assez bien",moy);
+    else if(12<=moy  && moy<14){
+            printf("\n la mention est: assez bien");
     }
-    else if(moy>=14 && moy<16){
-            printf("\n la mention est: bien",moy);
+    else if(14<=moy && moy<16){
+            printf("\n la mention est: bien");
     }
     else if(moy>=16){
-        printf("\n la mention est: tres bien",moy);
+        printf("\n la mention est: tres bien");
     }
 
     return 0;
